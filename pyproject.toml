@@ -1,0 +1,19 @@
+[project]
+name = "apan5560-assignment2"
+version = "0.1.0"
+description = "APANPS5560 Assignment 2 CNN FastAPI image classifier"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-multipart",
+    "pillow",
+    "numpy",
+    "torch",
+    "torchvision",
+    "tqdm",
+]
+
+[tool.uv]
+package = false
